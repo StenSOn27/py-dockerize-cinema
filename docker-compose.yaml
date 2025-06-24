@@ -19,7 +19,7 @@
       - media_volume:/app/media
 
   db:
-    image: postgres:17-alpine
+    image: postgres:16-alpine
     restart: always
     volumes:
       - postgres_data:/var/lib/postgresql/data/
